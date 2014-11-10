@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewSquares0"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewSquares3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewSquares6"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares7"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textViewSquares8"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="setValue"
+            android:textSize="100sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:onClick="clearclick"
+            android:text="@string/clear" />
+    </LinearLayout>
+
+</LinearLayout>
