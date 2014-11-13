@@ -13,9 +13,9 @@
         <TextView
             android:id="@+id/textViewSquares0"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#ffffff"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -24,9 +24,9 @@
         <TextView
             android:id="@+id/textViewSquares1"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#999999"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -35,9 +35,9 @@
         <TextView
             android:id="@+id/textViewSquares2"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#ffffff"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -45,7 +45,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="fill_vertical"
         android:layout_weight="1"
@@ -56,7 +56,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#999999"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -65,9 +65,9 @@
         <TextView
             android:id="@+id/textViewSquares4"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#ffffff"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -76,9 +76,9 @@
         <TextView
             android:id="@+id/textViewSquares5"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#999999"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -86,7 +86,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal" >
@@ -94,9 +94,9 @@
         <TextView
             android:id="@+id/textViewSquares6"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#ffffff"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -105,9 +105,9 @@
         <TextView
             android:id="@+id/textViewSquares7"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#999999"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -116,9 +116,9 @@
         <TextView
             android:id="@+id/textViewSquares8"
             android:layout_width="0dp"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/text_border"
+            android:background="#ffffff"
             android:clickable="true"
             android:gravity="center"
             android:onClick="setValue"
@@ -126,7 +126,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal" >
@@ -137,6 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_weight="1"
+            android:background="#ffffff"
             android:gravity="center"
             android:textColor="#0000FF"
             android:textSize="30sp" />
@@ -145,6 +146,8 @@
             android:id="@+id/clearbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:layout_marginTop="25dp"
             android:onClick="clearclick"
             android:text="@string/clear" />

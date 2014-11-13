@@ -5,10 +5,9 @@ public class MarubatsuBoard {
 	// 345
 	// 678
 	/** ゲーム盤の選択状況 */
-	// public String[] board = { "-", "-", "-", "-", "-", "-", "-", "-", "-" };
 	// public String[] board = { "", "", "", "", "", "", "", "", "" };
 	/** 現在のターン数 */
-	public int turn = 0;
+	// public int turn = 0;
 
 	/**
 	 * ゲーム盤のnで指定された箇所が空欄であるか？
