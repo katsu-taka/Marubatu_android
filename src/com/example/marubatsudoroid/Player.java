@@ -1,7 +1,7 @@
 package com.example.marubatsudoroid;
 
 public interface Player {
-	// public class Player extends Activity {
+
 	/** ラベル(○や×)を示す１文字の文字列 */
 	public abstract String getLabel();
 
